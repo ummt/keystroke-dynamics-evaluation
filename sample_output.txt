@@ -1,0 +1,731 @@
+Loading dataset: DSL-StrongPasswordData.csv
+Features loaded: 31 timing features
+Feature list: ['DD.Shift.r.o', 'DD.a.n', 'DD.e.five', 'DD.five.Shift.r', 'DD.i.e', 'DD.l.Return', 'DD.n.l', 'DD.o.a', 'DD.period.t', 'DD.t.i', 'H.Return', 'H.Shift.r', 'H.a', 'H.e', 'H.five', 'H.i', 'H.l', 'H.n', 'H.o', 'H.period', 'H.t', 'UD.Shift.r.o', 'UD.a.n', 'UD.e.five', 'UD.five.Shift.r', 'UD.i.e', 'UD.l.Return', 'UD.n.l', 'UD.o.a', 'UD.period.t', 'UD.t.i']
+
+=== Dataset Validation ===
+Total users: 51
+Total samples: 20400
+Samples per user: mean=400.0, std=0.0
+Min samples: 400, Max samples: 400
+Users with standard sample count (400): 51/51
+
+Running comprehensive keystroke dynamics authentication evaluation
+Implementation fully compliant with Killourhy & Maxion (2009)
+Statistical significance testing with Wilcoxon signed-rank test
+================================================================================
+COMPREHENSIVE KEYSTROKE DYNAMICS AUTHENTICATION EVALUATION
+Killourhy & Maxion (2009) Fully Compliant Implementation
+================================================================================
+
+Evaluating 51 users
+Training ratio: 50.0%
+
+[1/51] User: s002
+
+--- Evaluating User s002 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 22.75%
+euclidean: EER = 24.75%
+scaled_manhattan: EER = 23.00%
+asp_composite: EER = 21.75%
+
+[2/51] User: s003
+
+--- Evaluating User s003 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 37.75%
+euclidean: EER = 38.00%
+scaled_manhattan: EER = 28.25%
+asp_composite: EER = 21.75%
+
+[3/51] User: s004
+
+--- Evaluating User s004 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 22.50%
+euclidean: EER = 28.25%
+scaled_manhattan: EER = 14.50%
+asp_composite: EER = 10.75%
+
+[4/51] User: s005
+
+--- Evaluating User s005 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 9.00%
+euclidean: EER = 12.00%
+scaled_manhattan: EER = 3.25%
+asp_composite: EER = 3.25%
+
+[5/51] User: s007
+
+--- Evaluating User s007 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 25.75%
+euclidean: EER = 23.75%
+scaled_manhattan: EER = 25.25%
+asp_composite: EER = 22.00%
+
+[6/51] User: s008
+
+--- Evaluating User s008 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 27.00%
+euclidean: EER = 29.00%
+scaled_manhattan: EER = 15.25%
+asp_composite: EER = 12.50%
+
+[7/51] User: s010
+
+--- Evaluating User s010 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 7.50%
+euclidean: EER = 7.50%
+scaled_manhattan: EER = 3.25%
+asp_composite: EER = 2.75%
+
+[8/51] User: s011
+
+--- Evaluating User s011 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 30.75%
+euclidean: EER = 31.00%
+scaled_manhattan: EER = 22.75%
+asp_composite: EER = 19.25%
+
+[9/51] User: s012
+
+--- Evaluating User s012 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 19.75%
+euclidean: EER = 28.75%
+scaled_manhattan: EER = 6.50%
+asp_composite: EER = 5.50%
+
+[10/51] User: s013
+
+--- Evaluating User s013 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 21.50%
+euclidean: EER = 24.75%
+scaled_manhattan: EER = 14.50%
+asp_composite: EER = 11.25%
+
+[11/51] User: s015
+
+--- Evaluating User s015 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 36.25%
+euclidean: EER = 40.25%
+scaled_manhattan: EER = 22.50%
+asp_composite: EER = 17.25%
+
+[12/51] User: s016
+
+--- Evaluating User s016 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 13.75%
+euclidean: EER = 11.50%
+scaled_manhattan: EER = 5.75%
+asp_composite: EER = 7.50%
+
+[13/51] User: s017
+
+--- Evaluating User s017 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 8.00%
+euclidean: EER = 11.25%
+scaled_manhattan: EER = 3.00%
+asp_composite: EER = 3.50%
+
+[14/51] User: s018
+
+--- Evaluating User s018 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 29.00%
+euclidean: EER = 30.75%
+scaled_manhattan: EER = 20.50%
+asp_composite: EER = 18.75%
+
+[15/51] User: s019
+
+--- Evaluating User s019 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 6.00%
+euclidean: EER = 7.00%
+scaled_manhattan: EER = 3.50%
+asp_composite: EER = 3.00%
+
+[16/51] User: s020
+
+--- Evaluating User s020 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 41.00%
+euclidean: EER = 39.25%
+scaled_manhattan: EER = 26.00%
+asp_composite: EER = 21.00%
+
+[17/51] User: s021
+
+--- Evaluating User s021 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 18.50%
+euclidean: EER = 17.00%
+scaled_manhattan: EER = 16.00%
+asp_composite: EER = 13.50%
+
+[18/51] User: s022
+
+--- Evaluating User s022 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 8.50%
+euclidean: EER = 16.00%
+scaled_manhattan: EER = 2.75%
+asp_composite: EER = 3.50%
+
+[19/51] User: s024
+
+--- Evaluating User s024 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 11.00%
+euclidean: EER = 14.25%
+scaled_manhattan: EER = 3.50%
+asp_composite: EER = 4.25%
+
+[20/51] User: s025
+
+--- Evaluating User s025 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 7.75%
+euclidean: EER = 10.50%
+scaled_manhattan: EER = 6.25%
+asp_composite: EER = 7.50%
+
+[21/51] User: s026
+
+--- Evaluating User s026 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 20.50%
+euclidean: EER = 22.75%
+scaled_manhattan: EER = 7.25%
+asp_composite: EER = 8.50%
+
+[22/51] User: s027
+
+--- Evaluating User s027 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 13.00%
+euclidean: EER = 12.75%
+scaled_manhattan: EER = 7.25%
+asp_composite: EER = 7.00%
+
+[23/51] User: s028
+
+--- Evaluating User s028 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 12.50%
+euclidean: EER = 17.75%
+scaled_manhattan: EER = 3.75%
+asp_composite: EER = 7.75%
+
+[24/51] User: s029
+
+--- Evaluating User s029 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 18.00%
+euclidean: EER = 23.25%
+scaled_manhattan: EER = 8.75%
+asp_composite: EER = 9.75%
+
+[25/51] User: s030
+
+--- Evaluating User s030 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 11.50%
+euclidean: EER = 13.25%
+scaled_manhattan: EER = 7.00%
+asp_composite: EER = 12.50%
+
+[26/51] User: s031
+
+--- Evaluating User s031 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 31.00%
+euclidean: EER = 32.50%
+scaled_manhattan: EER = 28.25%
+asp_composite: EER = 25.75%
+
+[27/51] User: s032
+
+--- Evaluating User s032 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 40.50%
+euclidean: EER = 39.50%
+scaled_manhattan: EER = 39.00%
+asp_composite: EER = 35.50%
+
+[28/51] User: s033
+
+--- Evaluating User s033 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 15.50%
+euclidean: EER = 21.25%
+scaled_manhattan: EER = 6.75%
+asp_composite: EER = 10.50%
+
+[29/51] User: s034
+
+--- Evaluating User s034 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 37.00%
+euclidean: EER = 39.00%
+scaled_manhattan: EER = 27.50%
+asp_composite: EER = 24.50%
+
+[30/51] User: s035
+
+--- Evaluating User s035 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 31.50%
+euclidean: EER = 36.00%
+scaled_manhattan: EER = 21.50%
+asp_composite: EER = 19.75%
+
+[31/51] User: s036
+
+--- Evaluating User s036 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 1.50%
+euclidean: EER = 2.75%
+scaled_manhattan: EER = 0.00%
+asp_composite: EER = 0.75%
+
+[32/51] User: s037
+
+--- Evaluating User s037 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 25.75%
+euclidean: EER = 26.50%
+scaled_manhattan: EER = 21.25%
+asp_composite: EER = 19.25%
+
+[33/51] User: s038
+
+--- Evaluating User s038 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 11.50%
+euclidean: EER = 11.75%
+scaled_manhattan: EER = 5.25%
+asp_composite: EER = 7.00%
+
+[34/51] User: s039
+
+--- Evaluating User s039 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 15.75%
+euclidean: EER = 18.00%
+scaled_manhattan: EER = 6.50%
+asp_composite: EER = 6.75%
+
+[35/51] User: s040
+
+--- Evaluating User s040 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 24.50%
+euclidean: EER = 32.25%
+scaled_manhattan: EER = 12.00%
+asp_composite: EER = 15.25%
+
+[36/51] User: s041
+
+--- Evaluating User s041 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 21.75%
+euclidean: EER = 21.50%
+scaled_manhattan: EER = 12.00%
+asp_composite: EER = 13.25%
+
+[37/51] User: s042
+
+--- Evaluating User s042 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 5.50%
+euclidean: EER = 6.50%
+scaled_manhattan: EER = 3.50%
+asp_composite: EER = 3.00%
+
+[38/51] User: s043
+
+--- Evaluating User s043 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 5.50%
+euclidean: EER = 11.00%
+scaled_manhattan: EER = 1.75%
+asp_composite: EER = 2.25%
+
+[39/51] User: s044
+
+--- Evaluating User s044 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 11.75%
+euclidean: EER = 14.25%
+scaled_manhattan: EER = 5.75%
+asp_composite: EER = 6.00%
+
+[40/51] User: s046
+
+--- Evaluating User s046 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 21.00%
+euclidean: EER = 18.50%
+scaled_manhattan: EER = 18.25%
+asp_composite: EER = 15.25%
+
+[41/51] User: s047
+
+--- Evaluating User s047 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 21.75%
+euclidean: EER = 17.25%
+scaled_manhattan: EER = 24.25%
+asp_composite: EER = 24.00%
+
+[42/51] User: s048
+
+--- Evaluating User s048 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 17.50%
+euclidean: EER = 21.75%
+scaled_manhattan: EER = 11.00%
+asp_composite: EER = 10.75%
+
+[43/51] User: s049
+
+--- Evaluating User s049 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 15.00%
+euclidean: EER = 17.25%
+scaled_manhattan: EER = 3.00%
+asp_composite: EER = 3.75%
+
+[44/51] User: s050
+
+--- Evaluating User s050 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 26.00%
+euclidean: EER = 30.00%
+scaled_manhattan: EER = 16.50%
+asp_composite: EER = 17.00%
+
+[45/51] User: s051
+
+--- Evaluating User s051 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 28.75%
+euclidean: EER = 28.50%
+scaled_manhattan: EER = 22.50%
+asp_composite: EER = 20.00%
+
+[46/51] User: s052
+
+--- Evaluating User s052 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 4.00%
+euclidean: EER = 4.25%
+scaled_manhattan: EER = 1.25%
+asp_composite: EER = 1.50%
+
+[47/51] User: s053
+
+--- Evaluating User s053 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 13.25%
+euclidean: EER = 16.25%
+scaled_manhattan: EER = 5.50%
+asp_composite: EER = 6.25%
+
+[48/51] User: s054
+
+--- Evaluating User s054 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 18.25%
+euclidean: EER = 15.50%
+scaled_manhattan: EER = 15.00%
+asp_composite: EER = 13.50%
+
+[49/51] User: s055
+
+--- Evaluating User s055 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 12.00%
+euclidean: EER = 13.50%
+scaled_manhattan: EER = 5.75%
+asp_composite: EER = 3.00%
+
+[50/51] User: s056
+
+--- Evaluating User s056 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 30.75%
+euclidean: EER = 31.50%
+scaled_manhattan: EER = 22.50%
+asp_composite: EER = 14.25%
+
+[51/51] User: s057
+
+--- Evaluating User s057 ---
+Training samples: 200, Test samples: 200
+Genuine scores: 200
+Impostor scores: 200
+manhattan: EER = 32.00%
+euclidean: EER = 30.75%
+scaled_manhattan: EER = 21.50%
+asp_composite: EER = 16.50%
+
+Successful evaluations: 51/51
+
+=== Statistical Significance Testing (Wilcoxon Signed-Rank Test) ===
+
+=== asp_composite vs manhattan ===
+Number of users: 51
+asp_composite wins: 49, manhattan wins: 2, Ties: 0
+Mean EER difference: 7.598% ± 4.971%
+Median EER difference: 6.500%
+Wilcoxon test: statistic=8.0, p=0.000000
+95% confidence interval: [6.289%, 8.902%]
+Effect size (Cohen's d): 1.528 (large)
+Win rate: 0.961 (49/51)
+Statistical significance: p < 0.001 (p = 0.000000) (significant)
+Practical significance: Yes (threshold: 1.0%)
+
+=== asp_composite vs euclidean ===
+Number of users: 51
+asp_composite wins: 50, euclidean wins: 1, Ties: 0
+Mean EER difference: 9.446% ± 6.087%
+Median EER difference: 10.000%
+Wilcoxon test: statistic=17.5, p=0.000000
+95% confidence interval: [7.838%, 11.074%]
+Effect size (Cohen's d): 1.552 (large)
+Win rate: 0.980 (50/51)
+Statistical significance: p < 0.001 (p = 0.000000) (significant)
+Practical significance: Yes (threshold: 1.0%)
+
+=== asp_composite vs scaled_manhattan ===
+Number of users: 51
+asp_composite wins: 29, scaled_manhattan wins: 21, Ties: 1
+Mean EER difference: 0.922% ± 2.677%
+Median EER difference: 0.500%
+Wilcoxon test: statistic=421.5, p=0.037041
+95% confidence interval: [0.171%, 1.681%]
+Effect size (Cohen's d): 0.344 (small)
+Win rate: 0.580 (29/50)
+Statistical significance: p < 0.05 (p = 0.037041) (significant)
+Practical significance: No (threshold: 1.0%)
+
+============================================================
+COMPREHENSIVE EVALUATION RESULTS
+============================================================
+
+【Equal Error Rate - User Average】
+ASP (Proposed Method)    : 11.99% ± 7.76% (median: 10.75%, n=51)
+Scaled Manhattan         : 12.91% ± 9.34% (median: 11.00%, n=51)
+Manhattan Distance       : 19.58% ± 10.14% (median: 18.50%, n=51)
+Euclidean Distance       : 21.43% ± 10.01% (median: 21.25%, n=51)
+
+【Improvement Rates】
+vs Manhattan Distance  : +38.8%
+vs Euclidean Distance  : +44.1%
+vs Scaled Manhattan    :  +7.1%
+
+【Statistical Significance (Wilcoxon Signed-Rank Test)】
+ASP_COMPOSITE vs MANHATTAN:
+  Win-Loss: 49W 2L 0T
+  Mean improvement: +7.60%
+  Effect size: 1.528 (large)
+  Statistical significance: p < 0.001 (p = 0.000000) (significant)
+  Exact p-value: 8.26e-10
+  95% CI: [+6.29%, +8.90%]
+
+ASP_COMPOSITE vs EUCLIDEAN:
+  Win-Loss: 50W 1L 0T
+  Mean improvement: +9.45%
+  Effect size: 1.552 (large)
+  Statistical significance: p < 0.001 (p = 0.000000) (significant)
+  Exact p-value: 1.44e-09
+  95% CI: [+7.84%, +11.07%]
+
+ASP_COMPOSITE vs SCALED_MANHATTAN:
+  Win-Loss: 29W 21L 1T
+  Mean improvement: +0.92%
+  Effect size: 0.344 (small)
+  Statistical significance: p < 0.05 (p = 0.037041) (significant)
+  Exact p-value: 3.70e-02
+  95% CI: [+0.17%, +1.68%]
+
+
+================================================================================
+KEYSTROKE DYNAMICS AUTHENTICATION EVALUATION COMPLETED
+================================================================================
+
+================================================================================
+FINAL REPORT
+================================================================================
+================================================================================
+KEYSTROKE DYNAMICS AUTHENTICATION - COMPREHENSIVE EVALUATION
+Implementation Compliant with Killourhy & Maxion (2009)
+================================================================================
+
+Evaluation completed: 2025-05-30 22:18:07
+Dataset: CMU Keystroke Dynamics Dataset
+Evaluated users: 51
+Features: 31 timing features
+Execution time: 22.5 seconds
+
+==================================================
+METHODS
+==================================================
+ASP (Adaptive Statistical Profile):
+  - Robust statistics: Median, IQR, MAD
+  - Adaptive weighting: Stability × Reliability
+  - Distance fusion: 0.5×Median + 0.3×MAD + 0.2×Std
+
+Baseline methods (Killourhy & Maxion 2009):
+  - Manhattan: Σ|xi - μi|
+  - Euclidean: √Σ(xi - μi)²
+  - Scaled Manhattan: Σ|xi - μi|/σi
+
+==================================================
+RESULTS (Mean EER ± Std)
+==================================================
+Asp Composite       : 11.99% ± 7.76%
+Scaled Manhattan    : 12.91% ± 9.34%
+Manhattan           : 19.58% ± 10.14%
+Euclidean           : 21.43% ± 10.01%
+
+==================================================
+STATISTICAL SIGNIFICANCE (Wilcoxon Signed-Rank Test)
+==================================================
+ASP_COMPOSITE vs MANHATTAN:
+  Win Rate: 0.961 (49/51)
+  Mean Improvement: +7.60%
+  Effect Size (Cohen's d): 1.528 (large)
+  Statistical Significance: p < 0.001 (p = 0.000000)
+  Exact p-value: 8.26e-10
+  95% CI: [+6.29%, +8.90%]
+
+ASP_COMPOSITE vs EUCLIDEAN:
+  Win Rate: 0.980 (50/51)
+  Mean Improvement: +9.45%
+  Effect Size (Cohen's d): 1.552 (large)
+  Statistical Significance: p < 0.001 (p = 0.000000)
+  Exact p-value: 1.44e-09
+  95% CI: [+7.84%, +11.07%]
+
+ASP_COMPOSITE vs SCALED_MANHATTAN:
+  Win Rate: 0.580 (29/50)
+  Mean Improvement: +0.92%
+  Effect Size (Cohen's d): 0.344 (small)
+  Statistical Significance: p < 0.05 (p = 0.037041)
+  Exact p-value: 3.70e-02
+  95% CI: [+0.17%, +1.68%]
+
+================================================================================

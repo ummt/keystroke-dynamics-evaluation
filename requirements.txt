@@ -1,0 +1,12 @@
+# Keystroke Dynamics Evaluation Framework - Dependencies
+#
+# Core scientific computing libraries
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Statistical analysis
+scipy>=1.7.0
+
+# Optional: Enhanced analysis tools (uncomment if needed)
+# matplotlib>=3.5.0  # For visualization
+# seaborn>=0.11.0    # For statistical plotting
